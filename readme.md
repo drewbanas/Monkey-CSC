@@ -6,8 +6,8 @@ A C\# port of the Monkey bytecode virtual machine "compiler" from Thorsten Ballâ
 ## Usage
 - Without command line arguments, the program goes into REPL mode.
 - Following Chapter 10, the engine may be switched between the tree-walking evaluator or the virtual machine by using the following command line arguments:
--- "-engine=vm" , to use the virtual machine (default)
--- "-engine=eval", to use the tree-walking interpreter.
+  - "-engine=vm" , to use the virtual machine (default).
+  - "-engine=eval", to use the tree-walking interpreter.
 - If a script file name is supplied as one of the command line arguments and an engine is selected as above, then the execution time (in seconds) will be printed when the script finishes.
 - For creating scripts, please refer to the [Monkey Programming language](https://monkeylang.org/).
 - Visual Studio 2015 or later is needde to compile the C\# code.
